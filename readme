@@ -1,6 +1,15 @@
-this is readme file 
-set of instruction to run this webapp 
-mvn clean install 
-
-this may trigger build 
-this is for 2 nd build 
+/**
+ * This is a sample Java WAR project.
+ * It contains a simple servlet class that responds with "Hello, World!" to HTTP requests.
+ *
+ * To build the WAR package, follow these steps:
+ * 1. Compile the Java source files: javac -d WEB-INF/classes src/HelloWorldServlet.java
+ * 2. Create the WAR file: jar -cvf HelloWorld.war *
+ * 3. Deploy the WAR file to a Java application server, such as Apache Tomcat.
+ *
+ * Alternatively, if you are using Maven:
+ * 4. Build the project using Maven: mvn clean install
+ * 5. Deploy the generated WAR file to a Java application server.
+ *
+ * To access the servlet, use the following URL: http://localhost:8080/HelloWorld/
+ */
